@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
+body, h1, h3 {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    font-size: 16px;
+}
+.w3-half img {
+    margin-bottom:-6px;
+    margin-top:16px;
+    opacity:0.8;
+    cursor: pointer;
+}
+.w3-half img:hover {
+    opacity: 1;
+}
+
+a#navbar {
+    color: white;
+    transition: background-color 500ms;
+}
+a#backButton {
+    
+}
+a#navbar:hover {
+    color: black;
+    background-color:white;
+}
+img#navimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+a#content {
+    color: black;
+    transition: color 300ms;
+}
+a#content:hover{
+    color:red;
+}
